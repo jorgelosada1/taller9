@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   
+body{
+    min-height: 100vh;
+    background-color: rgb(43, 166, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10%;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    margin-left: 20%;
+    background-color: rgba(255, 255, 255, 0.91);
+    height: 150px;
+    width: 55%;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 2px rgb(89, 190, 248);
+    
+}
+#agregar {
+    border: none;
+    height: 40px;
+    width: 100%;
+    padding: 2px;
+    border-radius: 0.8rem;
+    background-color: rgb(12, 7, 85);
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+.content{
+    flex:1;
+    overflow: hidden;
+}
+.listaEventos2 {
+    width: 160%;
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: -25%;
+    background-color:rgba(255, 255, 255, 0.91);
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 2px rgb(89, 190, 248);
+}
+.evento {
+    margin-top: 10px;
+    border: 2px solid rgb(16, 165, 246);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    border-radius: 1rem;
+}
+
+#agregar{
+    margin-top: 10px;
+}
+#fechaEvento{
+    margin-top: 10px;
+    border: 2px solid rgb(16, 165, 246);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 30px;
+}
+#nombreEvento{
+    border: 2px solid rgb(16, 165, 246);
+    border-radius: 0.5rem;
+    width: 100%;
+    height: 30px;
+}
+.imagen{
+    width: 40px;
+    height: 40px;
+    transform: translateY(10px);
+}
+.eliminar{
+    background-color: rgb(25, 230, 25);
+    width: 80px;
+    height: 40px;
+    border-radius: 0.5rem;
+    margin-left: 20px;
+}
+.eliminar:hover{
+    background-color: rgb(218, 26, 26);
+
+}
+.nombreEvento{
+    font-weight: bold;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: auto;
+    max-width: 15ch; 
+    min-width: 15ch;
+}
+
+.evento{
+    justify-content: space-around;
+}
+.dias{
+    display: flex;
+  flex-direction: column;
+}
+.diasFaltantes{
+    font-size: 35px;
+    color: rgb(14, 119, 14);
+    font-weight: bold;
+}
+footer{
+text-align: center;
+margin-top: 100px;
+
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
